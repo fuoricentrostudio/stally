@@ -23,7 +23,12 @@ Delicious     | Yes           | No
 Facebook      | Yes           | Yes
 Linkedin      | Yes           | Yes
 Pinterest     | Yes           | Yes
-Google Plus   | Yes           | Yes (backend)
+Google Plus   | Yes           | Yes*
 Twitter       | Yes           | Yes
 Tumblr        | Yes           | No
 VK            | Yes           | Yes
+Whatsapp      | Yes**         | No
+
+\* Via (SharedCount)[http://www.sharedcount.com] API, or backend script.
+
+\** Only available via App, no browser support.

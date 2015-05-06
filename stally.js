@@ -67,6 +67,10 @@ function Stally() {
                 name: 'Tumblr',
                 url:'https://tumblr.com/share?s=&v=3&t={title}&u={url}'
             },            
+            whatsapp: {
+                name: 'Whatsapp',
+                url:'whatsapp://send?text={url}'
+            },            
             vk: {
                 name : 'VK',
                 url:'https://vkontakte.ru/share.php?url={url}&title={title}&description={text}&image={image}&noparse=true',
