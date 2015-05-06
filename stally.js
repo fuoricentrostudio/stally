@@ -83,6 +83,7 @@ function Stally() {
                     $.ajax({
                         type: 'GET',
                         dataType: 'jsonp',
+                        cache: true,
                         url: 'https://vk.com/share.php',
                         data: {act: 'count', index: 0, url: self._params.url}
                     })
