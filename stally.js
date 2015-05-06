@@ -45,8 +45,15 @@ function Stally() {
             plus: {
                 name: 'Google Plus',
                 url:'https://plus.google.com/share?url={url}',
-                count:function(self, callback){
-                    self._backendRequest(self._params.url, self._params.network, callback);
+                count:function(self, callback){          
+                    self._request('http://free.sharedcount.com/url', 
+                    {
+                        url: self._params.url,
+                        apikey: 'ce846af1d354ecbc49d09a4c608f3cefeed004e0' //set your key from www.sharedcount.com
+                    }, 
+                    function(data){ callback(data.GooglePlusOne); },
+                    {type: 'GET', dataType: 'json'}                            
+                    );
                 }                    
             },            
             twitter:  {
