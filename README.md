@@ -3,7 +3,7 @@ Social Newtorks Share Buttons and Counters
 
 ## Usage 
 
-In the <head> tag or footer:
+In the `<head>` tag or footer:
 ```
 <script type="text/javascript" src="stally.js"></script>
 ```
