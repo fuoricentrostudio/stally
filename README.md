@@ -29,6 +29,6 @@ Tumblr        | Yes           | No
 VK            | Yes           | Yes
 Whatsapp      | Yes**         | No
 
-\* Via (SharedCount)[http://www.sharedcount.com] API, or backend script.
+\* Via [SharedCount](http://www.sharedcount.com) API, or backend script.
 
 \** Only available via App, no browser support.
